@@ -11,8 +11,6 @@ li {
     list-style: none;
 }
 
-
-
 .list {
     display: flex;
     width: 400px;
@@ -55,17 +53,93 @@ li {
 }
 
 
-.hamburger {
-    position: fixed;
-    z-index: 100;
-    top: 1rem;
-    right: 1rem;
-    padding: 4px;
-    border: black solid 1px;
-    background: white;
+.menuIcon {
+    display: none;
     cursor: pointer;
   }
-  .closeIcon {
-    display: none;
+  
+  .menuIconTop,
+  .menuIconMiddle,
+  .menuIconBottom {
+    display: block;
+    height: 3px;
+    width: 25px;
+    background-color: black;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
   }
+  
+  .menuIconMiddle {
+    width: 20px;
+  }
+  
+  .menuIconOpen .menuIconTop {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .menuIconOpen .menuIconMiddle {
+    opacity: 0;
+  }
+  
+  .menuIconOpen .menuIconBottom {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .list {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+  }
+  
+  .listOpen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .menuIcon {
+      display: block;
+    }
+  
+    .list {
+      display: none;
+    }
+
+    .smalllist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 10px;
+    }
     
+    .link {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    
+    #contact {
+        color: black;
+        border-radius: 1;
+        border: none;
+    }
+    .humberger {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        text-align: center;
+    }
+  }

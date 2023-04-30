@@ -1,5 +1,6 @@
 import classes from "./InfoCard.module.css"
 import React from "react"
+import Typed from 'react-typed';
 
 
 
@@ -12,16 +13,17 @@ export default function InfoCard () {
                     <h2  style={{color: "#6E07F3"}}> Software Engineer</h2>
                     <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
                     <p style={{color: "#6E07F3"}}>Languages | speak:</p>
-                    <p>HTML, CSS, C, C++, Javascript, Typescript</p>
+                    <p><Typed strings={["HTML, CSS, C, C++, Javascript, Typescript"]}  typeSpeed={70}/></p>
                     <p></p>
                     <p style={{color: "#6E07F3"}}>Dev Tools:</p>
-                    <div>Vs Code</div>
-                    <div>Github</div>
-                    <div>Git</div>
-                    <div>Terminal</div>
-                    <div>Docker</div>
+                    <div><Typed strings={["Vs Code"]}  typeSpeed={70}/></div>
+                    <div> <Typed strings={["Github"]}  typeSpeed={70}/> </div>
+                    <div> <Typed strings={["Git"]}  typeSpeed={70}/> </div>
+                    <div> <Typed strings={["Terminal"]}  typeSpeed={70}/> </div>
+                    <div> <Typed strings={["Docker"]}  typeSpeed={70}/> </div>
                     <p></p>
 
+    
                 </div> 
             </div>
             <div className={classes.separator1}></div>

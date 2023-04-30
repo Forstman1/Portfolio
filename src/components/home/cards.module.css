@@ -48,7 +48,23 @@
     color: white;
 }
 
-/* .link {
-    text-decoration: none;
 
-} */
+
+
+@media screen and (max-width: 768px) {
+    .button {
+        color: #6E07F3;
+        margin: 50px;
+        width: 30%;
+        height: 50px;
+        
+        cursor: pointer;
+        border-radius: 20px;
+        transition: 0.5s;
+        font-size: 18px;
+        border: solid 2px #6E07F3;
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+    }
+}

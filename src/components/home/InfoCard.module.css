@@ -30,3 +30,13 @@
     background-color: white;
     height: 50px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+
+        width: 70%;
+
+    }
+}
