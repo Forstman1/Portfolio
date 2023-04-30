@@ -1,0 +1,71 @@
+.container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+.list {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+
+.logo {
+    margin: 10px;
+    color: #6E07F3;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 30px;
+    padding: 13px;
+}
+
+.link:hover {
+    
+    transition: 1s;
+    color: #6E07F3;
+}
+
+
+#contact {
+    color: #6E07F3;
+    border-radius: 20px;
+    border: solid 2px #6E07F3;
+}
+
+
+#contact:hover {
+    background-color: #6E07F3;
+    color: white;
+}
+
+
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+  }
+  .closeIcon {
+    display: none;
+  }
+    

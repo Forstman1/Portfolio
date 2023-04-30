@@ -1,0 +1,32 @@
+
+.biggerContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #6E07F3;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    background-color: white;
+    border-radius: 40px;
+}
+
+
+.separator1 {
+    width: 100%;
+    background-color: #6E07F3;
+    height: 50px;
+}
+
+
+.separator2 {
+    width: 100%;
+    background-color: white;
+    height: 50px;
+}

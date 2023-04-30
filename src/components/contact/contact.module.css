@@ -1,0 +1,78 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.image {
+    width: 10%;
+    margin: 50px;
+}
+
+.contact {
+    display: flex;
+    margin-top: 40px;
+}
+
+.first {
+    width: 200px;
+    text-align: left;
+    color: #363636;
+}
+
+.input1 {
+    border: solid 1px lightgray;
+    outline: none;
+    height: 30px;
+}
+
+
+.message {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.label {
+    text-align: left;
+    color: #363636;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 100%;
+    height: 200px;
+    
+    border: solid 1px lightgray;
+    outline: none;
+}
+
+
+
+.button {
+    margin: 30px;
+    text-align: center;
+    background-color: transparent;
+    width: 40%;
+    color: #6E07F3;
+    height: 50px;
+    border-radius: 30px;
+    border: solid 2px #6E07F3;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+
+}
+
+.button:hover {
+    background-color: #6E07F3;
+    transition: 1s;
+    cursor: pointer;
+    color: white;
+}
+
