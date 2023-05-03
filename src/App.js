@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from "./components/home/home"
 import Projects from "./components/projects/projects"
 import Contact from './components/contact/contact';
+import webserv from "./images/webserv.png";
+import containers from "./images/containers.png";
 
 
 function App() {
@@ -17,13 +19,13 @@ function App() {
     {
       ProjectName: "Webserv",
       Description: "This project is about writing your own HTTP server. it can be tested in actual browser. HTTP is one of the most used protocols on the internet",
-      image: "https://i.ytimg.com/vi/thJSev60yfg/maxresdefault.jpg",
+      image: webserv,
       github: "https://github.com/Forstman1/Webserv_42"
     },
     {
       ProjectName: "Containers",
       Description: "This project aims implementing a few container types of the C++ standard template library. Vector, Stack, Map",
-      image: "https://www.simplilearn.com/ice9/free_resources_article_thumb/C%2B%2B_STL_Example1.PNG",
+      image: containers,
       github: "https://github.com/Forstman1/FT_containers"
     },
     {

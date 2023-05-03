@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -20,7 +20,7 @@ li {
 
 .logo {
     margin: 10px;
-    color: #6E07F3;
+    color: #facf0f;
     cursor: pointer;
 }
 
@@ -36,19 +36,19 @@ li {
 .link:hover {
     
     transition: 1s;
-    color: #6E07F3;
+    color: #facf0f;
 }
 
 
 #contact {
-    color: #6E07F3;
+    color: #facf0f;
     border-radius: 15px;
-    border: solid 2px #6E07F3;
+    border: solid 2px #facf0f;
 }
 
 
 #contact:hover {
-    background-color: #6E07F3;
+    background-color: #facf0f;
     color: white;
 }
 

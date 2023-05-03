@@ -1,42 +1,49 @@
 
-.biggerContainer {
+
+
+.biggercontainer {
     display: flex;
+    font-family: 'Ubuntu', sans-serif;
     justify-content: center;
     width: 100%;
-    background-color: #6E07F3;
-
+    background-color: #f2f2f2;
+    border-bottom: solid 1px lightgray;
 }
 
 
 .container {
+    background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 30%;
-    background-color: white;
-    border-radius: 40px;
+    width: 97%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
 }
 
-
-.separator1 {
-    width: 100%;
-    background-color: #6E07F3;
-    height: 50px;
+.skills {
+    border: solid 1px lightgray;
+    width: 80px;
+    margin: 2px;
+    border-radius: 5px;
 }
 
-
-.separator2 {
-    width: 100%;
-    background-color: white;
-    height: 50px;
+.text {
+    font-weight: 100;
 }
 
-
+.aboutme {
+    font-size: 60px;
+}
 
 @media screen and (max-width: 768px) {
-    .container {
-
-        width: 70%;
-
+    
+    .aboutme {
+        font-size: 50px;
+    }
+    .text {
+        font-size: 14px;
     }
 }

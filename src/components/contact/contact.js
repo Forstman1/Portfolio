@@ -1,5 +1,5 @@
 import NavBar from "../ux/navbvar";
-import avatar from "../../images/avatar.svg"
+import avatar from "../../images/homme.png"
 import classes from "./contact.module.css"
 import { useRef } from "react";
 import emailjs from "@emailjs/browser"
