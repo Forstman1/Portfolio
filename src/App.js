@@ -57,7 +57,6 @@ function App() {
       <Route exact path='/' element={<Home data={data} />} />
       <Route exact path='/projects' element={<Projects data={data} />} />
       <Route exact path='/contact' element={<Contact  />} />
-
     </Routes>
     </Router>
   );
