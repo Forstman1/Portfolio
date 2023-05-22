@@ -13,8 +13,18 @@
     text-align: center;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
-
     justify-content: space-around;
+    transition: transform 0.5s ease;
+}
+
+.container:hover {
+    /* transition: 1s; */
+    background-color: #ececec;
+    /* transform: rotateX(20deg); */
+    transform: translateX(20px) translateY(-20px);
+    
+
+
 }
 
 .images {
